@@ -74,7 +74,7 @@ header-includes:
 
 ![Запись в file.txt названия файлов из каталога /etc и домашнего каталога](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/labs/lab06/report/image/Снимок экрана от 2022-05-05 15-46-59.png){ #fig:001 width=70% }
 
-2)Выводим имена в сех файлов из file.txt, имеющих расширение .conf, после записываем их в новый текстовый файл conf.txt
+2)Выводим имена всех файлов из file.txt, имеющих расширение .conf, после записываем их в новый текстовый файл conf.txt
 
 ![Вывод файлов и их запись в новый текстовый файл](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/labs/lab06/report/image/Снимок экрана от 2022-05-05 15-47-04.png){ #fig:002 width=70% }
 
