@@ -66,7 +66,7 @@ header-includes:
 
 # Цель работы
 
-**Цель работы:** научиться загружать информацию о себе, аватарку, выкладывать посты
+**Цель работы:** научиться загружать информацию о себе, аватарку, выкладывать посты на сайт
 
 # Выполнение второго этапа проекта
 
@@ -92,7 +92,7 @@ header-includes:
  
 ![Запись информации об образовании в файле index.md](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage2/report/image/Снимок экрана от 2022-05-06 19-03-04.png){ #fig:007 width=70% }
 
-![Информация об образовании на сайте](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage2/report/image/Снимок экрана от 2022-05-06 19-12-07.png){ #fig:008 width=70% }
+![Информация об образовании на сайте]/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage2/report/image/Снимок экрана от 2022-05-06 19-12-07.png){ #fig:008 width=70% }
 
 5)Делаем пост по прошедшей неделе
 
@@ -106,7 +106,7 @@ header-includes:
 
 ![Вид на пост, если перейти по ссылке на него](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage2/report/image/Снимок экрана от 2022-05-06 19-04-56.png){ #fig:012 width=70% }
 
-6)Добавбляем пост на тему управление версиями. Git.
+6)Добавбляем пост на тему управление версиями. Git
 
 ![Создание необходимой папки](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage2/report/image/Снимок экрана от 2022-05-06 19-04-45.png){ #fig:013 width=70% }
 
