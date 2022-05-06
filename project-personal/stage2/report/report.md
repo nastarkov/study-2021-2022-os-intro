@@ -1,8 +1,8 @@
 ---
 ## Front matter
-title: "Шаблон отчёта по лабораторной работе"
-subtitle: "Простейший вариант"
-author: "Дмитрий Сергеевич Кулябов"
+title: "Отчет по второму этапу проекта"
+subtitle: "*дисциплина: Операционные системы *"
+author: "Старков Никита Алексеевич"
 
 ## Generic otions
 lang: ru-RU
@@ -16,7 +16,6 @@ csl: pandoc/csl/gost-r-7-0-5-2008-numeric.csl
 toc: true # Table of contents
 toc-depth: 2
 lof: true # List of figures
-lot: true # List of tables
 fontsize: 12pt
 linestretch: 1.5
 papersize: a4
@@ -56,7 +55,6 @@ figureTitle: "Рис."
 tableTitle: "Таблица"
 listingTitle: "Листинг"
 lofTitle: "Список иллюстраций"
-lotTitle: "Список таблиц"
 lolTitle: "Листинги"
 ## Misc options
 indent: true
@@ -68,52 +66,57 @@ header-includes:
 
 # Цель работы
 
-Здесь приводится формулировка цели лабораторной работы. Формулировки
-цели для каждой лабораторной работы приведены в методических
-указаниях.
+**Цель работы:** научиться загружать информацию о себе, аватарку, выкладывать посты
 
-Цель данного шаблона --- максимально упростить подготовку отчётов по
-лабораторным работам.  Модифицируя данный шаблон, студенты смогут без
-труда подготовить отчёт по лабораторным работам, а также познакомиться
-с основными возможностями разметки Markdown.
+# Выполнение второго этапа проекта
 
-# Задание
+1)Размещаем фотографию владельца сайта
 
-Здесь приводится описание задания в соответствии с рекомендациями
-методического пособия и выданным вариантом.
+![Сохранение картинки из интернета в нужную папку](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage2/report/image/Снимок экрана от 2022-05-06 19-03-40.png){ #fig:001 width=70% }
 
-# Теоретическое введение
+![Фото на сайте](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage2/report/image/Снимок экрана от 2022-05-06 19-04-04.png){ #fig:002 width=70% }
 
-Здесь описываются теоретические аспекты, связанные с выполнением работы.
+2)Размещаем краткое описание владельца сайта (Biography).
 
-Например, в табл. [-@tbl:std-dir] приведено краткое описание стандартных каталогов Unix.
+![Запись информации о биографии в файле index.md](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage2/report/image/Снимок экрана от 2022-05-06 19-03-09.png){ #fig:003 width=70% }
 
-: Описание некоторых каталогов файловой системы GNU Linux {#tbl:std-dir}
+![Информация о биографии на сайте](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage2/report/image/Снимок экрана от 2022-05-06 19-03-52.png){ #fig:004 width=70% }
 
-| Имя каталога | Описание каталога                                                                                                          |
-|--------------|----------------------------------------------------------------------------------------------------------------------------|
-| `/`          | Корневая директория, содержащая всю файловую                                                                               |
-| `/bin `      | Основные системные утилиты, необходимые как в однопользовательском режиме, так и при обычной работе всем пользователям     |
-| `/etc`       | Общесистемные конфигурационные файлы и файлы конфигурации установленных программ                                           |
-| `/home`      | Содержит домашние директории пользователей, которые, в свою очередь, содержат персональные настройки и данные пользователя |
-| `/media`     | Точки монтирования для сменных носителей                                                                                   |
-| `/root`      | Домашняя директория пользователя  `root`                                                                                   |
-| `/tmp`       | Временные файлы                                                                                                            |
-| `/usr`       | Вторичная иерархия для данных пользователя                                                                                 |
+3)Добавляем информацию об интересах (Interests).
 
-Более подробно об Unix см. в [@gnu-doc:bash;@newham:2005:bash;@zarrelli:2017:bash;@robbins:2013:bash;@tannenbaum:arch-pc:ru;@tannenbaum:modern-os:ru].
+![Запись информации об интересах в файле index.md](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage2/report/image/Снимок экрана от 2022-05-06 19-02-56.png){ #fig:005 width=70% }
 
-# Выполнение лабораторной работы
+![Информация об интересах на сайте](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage2/report/image/Снимок экрана от 2022-05-06 19-03-56.png){ #fig:006 width=70% }
 
-Описываются проведённые действия, в качестве иллюстрации даётся ссылка на иллюстрацию (рис. [-@fig:001])
+4)Добавляем информацию от образовании (Education)
+ 
+![Запись информации об образовании в файле index.md](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage2/report/image/Снимок экрана от 2022-05-06 19-03-04.png){ #fig:007 width=70% }
 
-![Название рисунка](image/placeimg_800_600_tech.jpg){ #fig:001 width=70% }
+![Информация об образовании на сайте](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage2/report/image/Снимок экрана от 2022-05-06 19-12-07.png){ #fig:008 width=70% }
 
-# Выводы
+5)Делаем пост по прошедшей неделе
 
-Здесь кратко описываются итоги проделанной работы.
+![Создаем папку с информацией о прошлой неделе](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage2/report/image/Снимок экрана от 2022-05-06 19-04-23.png){ #fig:009 width=70% }
 
-# Список литературы{.unnumbered}
+Скачиваем фотографию и в файле index.md пишем информацию, которую будем загружать на сайт
 
-::: {#refs}
-:::
+![Файл index.md и обложка поста](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage2/report/image/Снимок экрана от 2022-05-06 19-04-28.png){ #fig:010 width=70% }
+
+![Вид на пост с сайта](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage2/report/image/Снимок экрана от 2022-05-06 19-04-38.png){ #fig:011 width=70% }
+
+![Вид на пост, если перейти по ссылке на него](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage2/report/image/Снимок экрана от 2022-05-06 19-04-56.png){ #fig:012 width=70% }
+
+6)Добавбляем пост на тему управление версиями. Git.
+
+![Создание необходимой папки](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage2/report/image/Снимок экрана от 2022-05-06 19-04-45.png){ #fig:013 width=70% }
+
+![Файл index.md и обложка поста](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage2/report/image/Снимок экрана от 2022-05-06 19-19-12.png){ #fig:014 width=70% }
+
+![Вид на пост с сайта](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage2/report/image/Снимок экрана от 2022-05-06 19-04-50.png){ #fig:015 width=70% }
+
+![Вид на пост, если перейти по ссылке на него](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage2/report/image/Снимок экрана от 2022-05-06 19-05-02.png){ #fig:016 width=70% }
+
+# Вывод
+
+**Вывод:** в ходе выполнение второго этапа проекта я научился выкладывать посты, фотографии и добавлять информацию о себе.
+
