@@ -148,7 +148,7 @@ header-includes:
 
 ![Просмотр содержимого текстового файла](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/labs/lab07/report/image/Снимок экрана от 2022-05-11 16-32-19.png){ #fig:021 width=70% }
 
-5.2)Создаем каталога
+5.2)Создаем каталог
 
 ![Создание каталога](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/labs/lab07/report/image/Снимок экрана от 2022-05-11 16-29-26.png){ #fig:022 width=70% }
 
