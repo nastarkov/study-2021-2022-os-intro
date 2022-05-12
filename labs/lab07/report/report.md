@@ -184,7 +184,7 @@ header-includes:
 
 ![Подтверждение](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/labs/lab07/report/image/Снимок экрана от 2022-05-11 16-44-01.png){ #fig:029 width=70% }
 
-7.4)Оформление - позволяет менятьцветовую гамму визуальной оболочки
+7.4)Оформление - позволяет менять цветовую гамму визуальной оболочки
 
 ![Оформление](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/labs/lab07/report/image/Снимок экрана от 2022-05-11 16-44-12.png){ #fig:030 width=70% }
 
