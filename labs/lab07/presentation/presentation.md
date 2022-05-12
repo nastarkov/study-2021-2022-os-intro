@@ -6,7 +6,7 @@ author: |
          Старков Никита Алексеевич
 	
 institute: |
-	\inst RUDN University, Moscow, Russian Federation
+	\inst{1}RUDN University, Moscow, Russian Federation
 	
 ## Formatting
 toc: false
