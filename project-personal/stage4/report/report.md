@@ -80,7 +80,7 @@ header-includes:
  
 ![Информация о посте в файле](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage4/report/image/Снимок экрана от 2022-05-19 15-18-33.png){ #fig:003 width=70% }
 
-![Пост на сайте](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage4/report/image/Снимок экрана от 2022-05-19 15-18-47.png{ #fig:004 width=70% }
+![Пост на сайте](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage4/report/image/Снимок экрана от 2022-05-19 15-18-47.png){ #fig:004 width=70% }
 
 ![Пост на сайте](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage4/report/image/Снимок экрана от 2022-05-19 15-18-57.png){ #fig:005 width=70% }
 
