@@ -110,7 +110,7 @@ header-includes:
 
 Создаем файл random.sh и пишем скрипт, удовлетворяющий условиям задачи
 
-![Скрипт №3]/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/labs/lab12/report/image/Снимок экрана от 2022-05-25 18-53-46.png){ #fig:010 width=70% }
+![Скрипт №3](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/labs/lab12/report/image/Снимок экрана от 2022-05-25 18-53-46.png){ #fig:010 width=70% }
 
 Далее проверяем работу написанного скрипта, предварительно открыв право на исполнение.
 
