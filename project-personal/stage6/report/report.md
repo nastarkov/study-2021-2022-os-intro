@@ -1,8 +1,8 @@
 ---
 ## Front matter
-title: "Шаблон отчёта по лабораторной работе"
-subtitle: "Простейший вариант"
-author: "Дмитрий Сергеевич Кулябов"
+title: "Отчет по шестому этапу проекта"
+subtitle: "*дисциплина: Операционные системы *"
+author: "Старков Никита Алексеевич"
 
 ## Generic otions
 lang: ru-RU
@@ -16,7 +16,6 @@ csl: pandoc/csl/gost-r-7-0-5-2008-numeric.csl
 toc: true # Table of contents
 toc-depth: 2
 lof: true # List of figures
-lot: true # List of tables
 fontsize: 12pt
 linestretch: 1.5
 papersize: a4
@@ -56,7 +55,6 @@ figureTitle: "Рис."
 tableTitle: "Таблица"
 listingTitle: "Листинг"
 lofTitle: "Список иллюстраций"
-lotTitle: "Список таблиц"
 lolTitle: "Листинги"
 ## Misc options
 indent: true
@@ -68,52 +66,69 @@ header-includes:
 
 # Цель работы
 
-Здесь приводится формулировка цели лабораторной работы. Формулировки
-цели для каждой лабораторной работы приведены в методических
-указаниях.
+**Цель работы:** научиться переводить сайт на английский язык, выложить пост по прошедшей неделе и пост на любую тему
 
-Цель данного шаблона --- максимально упростить подготовку отчётов по
-лабораторным работам.  Модифицируя данный шаблон, студенты смогут без
-труда подготовить отчёт по лабораторным работам, а также познакомиться
-с основными возможностями разметки Markdown.
+# Выполнение шестого этапа проекта
 
-# Задание
+1)Скачиваем с сайта wowchemy файлы en.yaml и ru.yaml, предварительно создаем каталог i18n.
 
-Здесь приводится описание задания в соответствии с рекомендациями
-методического пособия и выданным вариантом.
+![Файл en.yaml](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage6/report/image/Снимок экрана от 2022-06-02 12-55-35.png){ #fig:001 width=70% }
 
-# Теоретическое введение
+![Файл ru.yaml](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage6/report/image/Снимок экрана от 2022-06-02 13-06-32.png){ #fig:002 width=70% }
 
-Здесь описываются теоретические аспекты, связанные с выполнением работы.
+2)Создаем папки en и ru, куда копируем все содержимое каталога /work.blog/content 
 
-Например, в табл. [-@tbl:std-dir] приведено краткое описание стандартных каталогов Unix.
+![Папки en и ru](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage6/report/image/Снимок экрана от 2022-06-02 13-16-41.png){ #fig:003 width=70% }
 
-: Описание некоторых каталогов файловой системы GNU Linux {#tbl:std-dir}
+3)В папке ru меняем все содержимое на русский язык, в папке en на английский язык.
 
-| Имя каталога | Описание каталога                                                                                                          |
-|--------------|----------------------------------------------------------------------------------------------------------------------------|
-| `/`          | Корневая директория, содержащая всю файловую                                                                               |
-| `/bin `      | Основные системные утилиты, необходимые как в однопользовательском режиме, так и при обычной работе всем пользователям     |
-| `/etc`       | Общесистемные конфигурационные файлы и файлы конфигурации установленных программ                                           |
-| `/home`      | Содержит домашние директории пользователей, которые, в свою очередь, содержат персональные настройки и данные пользователя |
-| `/media`     | Точки монтирования для сменных носителей                                                                                   |
-| `/root`      | Домашняя директория пользователя  `root`                                                                                   |
-| `/tmp`       | Временные файлы                                                                                                            |
-| `/usr`       | Вторичная иерархия для данных пользователя                                                                                 |
+4)В каталоге _default меняем содержимое файла language. 
 
-Более подробно об Unix см. в [@gnu-doc:bash;@newham:2005:bash;@zarrelli:2017:bash;@robbins:2013:bash;@tannenbaum:arch-pc:ru;@tannenbaum:modern-os:ru].
+![languages.yaml](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage6/report/image/Снимок экрана от 2022-06-02 13-21-00.png){ #fig:004 width=70% }
 
-# Выполнение лабораторной работы
+В этом же каталоге создаем файлы menus.en.yaml и menus.ru.yaml. В menus.ru.yaml меняем текст на русский
 
-Описываются проведённые действия, в качестве иллюстрации даётся ссылка на иллюстрацию (рис. [-@fig:001])
+![menus.en.yaml и menus.ru.yaml](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage6/report/image/Снимок экрана от 2022-06-02 13-25-51.png){ #fig:005 width=70% }
 
-![Название рисунка](image/placeimg_800_600_tech.jpg){ #fig:001 width=70% }
+Получаем готовый сайт с переводом на английский и русский языки:
 
-# Выводы
+![Сайт на русском языке](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage6/report/image/Снимок экрана от 2022-06-02 14-45-37.png){ #fig:006 width=70% }
 
-Здесь кратко описываются итоги проделанной работы.
+![Сайт на русском языке](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage6/report/image/Снимок экрана от 2022-06-02 14-45-45.png){ #fig:007 width=70% }
 
-# Список литературы{.unnumbered}
+![Сайт на русском языке](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage6/report/image/Снимок экрана от 2022-06-02 14-45-49.png){ #fig:008 width=70% }
 
-::: {#refs}
-:::
+![Сайт на русском языке](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage6/report/image/Снимок экрана от 2022-06-02 14-45-54.png){ #fig:009 width=70% }
+
+![Сайт на русском языке](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage6/report/image/Снимок экрана от 2022-06-02 14-45-58.png){ #fig:010 width=70% }
+
+![Сайт на русском языке](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage6/report/image/Снимок экрана от 2022-06-02 14-46-44.png){ #fig:011 width=70% }
+
+![Сайт на английском языке](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage6/report/image/Снимок экрана от 2022-06-02 14-46-44.png){ #fig:012 width=70% }
+
+![Сайт на английском языке](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage6/report/image/Снимок экрана от 2022-06-02 14-46-44.png){ #fig:013 width=70% }
+
+![Сайт на английском языке](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage6/report/image/Снимок экрана от 2022-06-02 14-46-44.png){ #fig:014 width=70% }
+
+![Сайт на английском языке](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage6/report/image/Снимок экрана от 2022-06-02 14-46-44.png){ #fig:015 width=70% }
+
+![Сайт на английском языке](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage6/report/image/Снимок экрана от 2022-06-02 14-46-44.png){ #fig:016 width=70% }
+
+![Сайт на английском языке](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage6/report/image/Снимок экрана от 2022-06-02 14-46-44.png){ #fig:017 width=70% }
+
+5)Добавляем пост по прошедшей неделе 
+
+![Пост на сайте](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage6/report/image/Снимок экрана от 2022-06-02 15-16-31.png){ #fig:018 width=70% }
+
+![Пост на сайте](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage6/report/image/Снимок экрана от 2022-06-02 15-17-41.png){ #fig:019 width=70% }
+
+3)Добавляем пост на тему "Смысл бытия"
+
+![Пост на сайте](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage6/report/image/Снимок экрана от 2022-06-02 15-16-24.png){ #fig:020 width=70% }
+
+![Пост на сайте](/afs/.dk.sci.pfu.edu.ru/home/n/a/nastarkov/work/study/2021-2022/Операционные системы/os-intro/project-personal/stage6/report/image/Снимок экрана от 2022-06-02 15-17-55.png){ #fig:021 width=70% }
+
+# Вывод
+
+**Вывод:** в ходе выполнения шестого этапа проекта я перевел сайт на английский язык, выложил пост по прошедшей неделе и пост на любую тему
+
